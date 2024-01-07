@@ -1,0 +1,32 @@
+import Project from "../../components/ui/Project";
+import { projects } from "../../data";
+
+const Projects = () => {
+  let size: number = 1;
+  return (
+    <>
+      <p className="text-center my-10 text-3xl font-serif mt-24">
+        Freatured Projects
+      </p>
+      <ul className="p-6 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {projects.map((proj) => {
+          if (size <= 3) {
+            size++;
+            return (
+              <Project
+                icon={proj.img}
+                projectName={proj.projectName}
+                projectLink={proj.projectLink}
+                projectDescription={proj.projectDetail}
+                techStack={proj.techStack}
+                key={proj.projectLink}
+              />
+            );
+          } else return "";
+        })}
+      </ul>
+    </>
+  );
+};
+
+export default Projects;
