@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <>
       <main className="container flex flex-col items-center text-center max-w-md mx-auto">
-        <h1 className="text-3xl md:text-5xl pt-[100px] font-serif">
+        <h1 className="text-4xl font-bold md:text-5xl pt-[100px] px-2 md:px-0 font-serif">
           Hey, I am Nikhar Savaliya
         </h1>
         <p className="pt-4 text-zinc-500 text-xs md:text-md ">
