@@ -9,13 +9,9 @@ const TechStack = () => {
         Tools and Technologies I know
       </p>
       <div className="grid grid-cols-3 lg:max-w-3xl gap-4 mx-auto overflow-hidden">
-        <TechIcon img={svgs.html} name="HTML" />
-        <TechIcon img={svgs.css} name="CSS" />
-        <TechIcon img={svgs.javaScript} name="JavaScript" />
-        <TechIcon img={svgs.react} name="React.js" />
-        <TechIcon img={svgs.next} name="Next.js" />
-        <TechIcon img={svgs.typeScript} name="TypeScript" />
-        <TechIcon img={svgs.tailwind} name="Tailwind css" />
+        {svgs.map((svg) => {
+          return <TechIcon img={svg.logo} name={svg.name} />;
+        })}
       </div>
     </section>
   );

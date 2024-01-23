@@ -5,6 +5,7 @@ interface cardData {
   icon: LucideIcon;
   projectName: string;
   projectLink: string;
+  repository: string;
   projectDescription: string;
   techStack: Array<string>;
 }
@@ -12,8 +13,8 @@ interface cardData {
 const project = (props: cardData) => {
   return (
     <li className="w-full border rounded-xl flex flex-col bg-zinc-100 border-zinc-300">
-      <div className="flex items-center gap-3 p-3 border-b border-zinc-300">
-        <props.icon />
+      <div className="flex items-center gap-3 p-3 border-b border-zinc-200">
+        <props.icon className="text-zinc-800" width={22} />
         <div className="flex flex-col">
           <a
             href={props.projectLink}
@@ -40,13 +41,13 @@ const project = (props: cardData) => {
         </div>
       </div>
 
-      <div className="p-3 border-t border-zinc-300 flex flex-col justify-end mt-5 text-md text-emerald-800">
+      <div className="p-3 relative border-t border-zinc-200 flex flex-col justify-end mt-5 text-md ">
         <a
-          href={props.projectLink}
-          className="flex gap-1 items-center text-sm hover:underline "
+          href={props.repository}
+          className="flex cursor-pointer items-center gap-[2px] text-zinc-700 text-sm hover:underline pl-1 "
         >
-          View Code
-          <ArrowUpRight size={18} />
+          code
+          <ArrowUpRight size={14} className="mt-[2px]" />
         </a>
       </div>
     </li>

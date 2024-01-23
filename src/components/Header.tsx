@@ -14,8 +14,8 @@ const Header: React.FC = () => {
             className="flex gap-2 items-end opacity-100"
             aria-label="Nikhar S."
           >
-            <span className="font-serif font-medium text-md antialiased flex ">
-              Nikhar S.
+            <span className="font-serif relative font-medium text-lg antialiased flex ">
+              <span className="z-50 px-2">Nikhar S</span>
             </span>
           </Link>
 

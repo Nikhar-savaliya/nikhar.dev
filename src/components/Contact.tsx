@@ -9,11 +9,11 @@ const Contact = () => {
       <Badge variant="success">Open for full-time jobs or freelance</Badge>
 
       <p className="font-serif text-3xl md:text-4xl max-w-lg text-center">
-        Want to contact me for your next Project?
+        Feel free to contact me anytime!
       </p>
       <p className="max-w-md text-xs md:text-sm py-4 text-center text-zinc-600">
-        I'm currently looking for new opportunities to grow my skills. Let's
-        chat if you are interseted!
+        I am eagerly searching for fresh opportunities to level up my skills. If
+        you're interested, let's have a chat!
       </p>
       <Link to="mailto:nikhar663@gmail.com" target="_blank">
         <div title="Mail To: nikhar663@gmail.com">

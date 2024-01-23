@@ -1,12 +1,14 @@
 import {
   FileCode,
+  GanttChartSquare,
   Github,
   Home,
   Linkedin,
-  Projector,
+  Pizza,
   Table2,
   TwitterIcon,
   User2,
+  Youtube,
 } from "lucide-react";
 
 // ***** HEADER LINKS ******
@@ -54,44 +56,31 @@ export const ContactLinks = [
 // ****** Project Data ******
 export const projects = [
   {
-    img: Projector,
+    img: Youtube,
     projectName: "Youtube Homepage Clone",
     projectLink: "https://you-tube-clone-nikhar-savaliya.vercel.app",
+    repository: "https://github.com/Nikhar-savaliya/YouTube-Clone",
     projectDetail:
       "this project is youtube homepage clone, i created when i was learning pure HTML, CSS and JS.",
-    techStack: ["HTML", "CSS", "JS"],
+    techStack: ["HTML", "CSS", "JavaScript"],
   },
   {
-    img: Projector,
+    img: GanttChartSquare,
     projectName: "SkillSensei",
     projectLink: "https://skill-sensei.vercel.app",
+    repository: "https://github.com/Nikhar-savaliya/SkillSensei",
     projectDetail:
-      "A landing page for imaginary company that selles courses related to self improvement.A landing page for imaginary company that selles courses related to self improvement.",
-    techStack: ["HTML", "CSS", "JS"],
+      "A landing page for company that selles courses related to self improvement.",
+    techStack: ["HTML", "CSS", "JavaScript"],
   },
   {
-    img: Projector,
+    img: Pizza,
     projectName: "Pizza menu",
     projectLink: "https://pizza-menu-nine.vercel.app",
+    repository: "https://github.com/Nikhar-savaliya/pizza-menu",
     projectDetail:
       "this project is a menu for restraunt, created using React.js",
-    techStack: ["HTML", "CSS", "JS", "React"],
-  },
-  {
-    img: Projector,
-    projectName: "Pizza menu",
-    projectLink: "https://pizza-menu-nine.vercel.app",
-    projectDetail:
-      "this project is a menu for restraunt, created using React.js",
-    techStack: ["HTML", "CSS", "JS", "React"],
-  },
-  {
-    img: Projector,
-    projectName: "Pizza menu",
-    projectLink: "https://pizza-menu-nine.vercel.app",
-    projectDetail:
-      "this project is a menu for restraunt, created using React.js",
-    techStack: ["HTML", "CSS", "JS", "React"],
+    techStack: ["HTML", "CSS", "JavaScript", "React.js"],
   },
 ];
 
@@ -109,18 +98,6 @@ export const articleData = [
     description:
       "This is A detailed article about Type Mutability and type conversion in javascript.",
     time: "3",
-  },
-  {
-    link: "https://medium.com/@nikhar-dev/this-is-all-you-need-to-know-about-strings-in-javascript-ed9c6c7e3786",
-    title: "This is all you need to know about Strings in JavaScript",
-    description: "This is Detailed article about Strings in JavaScript.",
-    time: "5",
-  },
-  {
-    link: "https://medium.com/@nikhar-dev/this-is-all-you-need-to-know-about-strings-in-javascript-ed9c6c7e3786",
-    title: "This is all you need to know about Strings in JavaScript",
-    description: "This is Detailed article about Strings in JavaScript.",
-    time: "5",
   },
   {
     link: "https://medium.com/@nikhar-dev/this-is-all-you-need-to-know-about-strings-in-javascript-ed9c6c7e3786",
