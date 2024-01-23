@@ -19,6 +19,7 @@ const Projects = () => {
                 projectLink={proj.projectLink}
                 projectDescription={proj.projectDetail}
                 techStack={proj.techStack}
+                repository={proj.repository}
                 key={proj.projectLink}
               />
             );
