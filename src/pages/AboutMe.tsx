@@ -1,7 +1,7 @@
 import Nikhar from "../assets/Nikhar.png";
 import scetLogo from "../assets/scet-logo.png";
 
-const about = () => {
+const About = () => {
   return (
     <section className="max-w-6xl mx-auto my-12 px-5 py-6">
       <p className="text-2xl pb-4 font-serif mb-4 text-center md:text-left">
@@ -54,4 +54,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
