@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Nikhar Savaliya's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I am Nikhar, a highly skilled and experienced web developer and designer from India. I am actively seeking freelance or full-time opportunities where I can showcase my expertise and contribute to the success of a project. I am confident in my ability to create exceptional interactive products that exceed expectations.
 
-Currently, two official plugins are available:
+Let's work together to bring your ideas to life and surpass your online objectives. I am committed to providing you with outstanding results that will leave you completely satisfied.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Skills
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Web Development
+- Frontend: React.js, HTML, CSS, JavaScript
+- backend : express.js, MongoDB
+- Data Structure and Algorithms
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## How to Run Locally
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+If you want to run this project locally, follow these steps:
+
+1. Clone the repository: `https://github.com/Nikhar-savaliya/React-Portfolio.git`
+2. Navigate to the project directory: `cd React-Portfolio`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your browser and go to `http://localhost:5173`
+
+Feel free to reach out to me if you have any questions or if you're interested in collaborating!
+
