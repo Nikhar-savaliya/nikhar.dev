@@ -48,7 +48,7 @@ export const ContactLinks = [
   },
   {
     text: "Twitter",
-    link: "https://twitter.com/N1khar_",
+    link: "https://twitter.com/nikharSavaliya",
     icon: TwitterIcon,
   },
 ];
