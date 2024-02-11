@@ -8,11 +8,13 @@ const About = () => {
         👋🏼 Unveiling the Person Behind the Greeting
       </p>
       <div className="container flex gap-10 flex-col md:flex-row items-center md:items-start ">
+        <div className="w-[200px] md:w-48 h-[200px] md:h-48 rounded-3xl">
         <img
           src={Nikhar}
           alt="userPhoto"
           className="overflow-hidden object-contain aspect-square center max-w-[200px] md:max-w-48  rounded-3xl"
         />
+        </div>
         <div>
           <ul className=" flex flex-col gap-1.5 mt-4 leading-tight list-inside list-disc">
             <li className="text-sm max-w-md text-zinc-600">
@@ -36,11 +38,13 @@ const About = () => {
           Academic and professional Experience
         </p>
         <div className="flex items-center  space-x-2 border w-fit pr-12 pl-4  py-2 rounded border-zinc-300 bg-zinc-100">
+          <div className="w-12 h-12">
           <img
             src={scetLogo}
             alt="collage logo"
             className="w-12 bg-white rounded-full"
           />
+          </div>
           <div className="text-sm">
             <p className="font-roca mb-1">B.Tech in Computer Science</p>
             <p className="text-xs text-gray-500">

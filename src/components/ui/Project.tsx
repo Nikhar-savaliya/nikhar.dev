@@ -6,7 +6,7 @@ interface cardData {
   projectName: string;
   projectLink: string;
   repository: string;
-  projectDescription: string;
+  projectDescription: string[];
   techStack: Array<string>;
 }
 
@@ -29,9 +29,11 @@ const project = (props: cardData) => {
       </div>
 
       <div className="flex-grow p-3 text-xs">
-        <p className="p-1 text-start text-zinc-700">
-          {props.projectDescription}
-        </p>
+        <ul className="p-1 px-4 text-start text-zinc-700 list-disc">
+          {props.projectDescription.map((feature,index) => {
+            return <li key={index}>{feature}</li>
+          })}
+        </ul>
         <div className="flex gap-x-2 gap-y-2 flex-wrap py-4 ">
           {props.techStack.map((item) => (
             <Badge variant="success" key={item}>
