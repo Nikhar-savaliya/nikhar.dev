@@ -21,7 +21,7 @@ const Article = ({ title, link, description, time }: articleData) => {
           </Link>
         </div>
         <p className="text-[10px] text-emerald-700 pb-1">{`${time} minutes read`}</p>
-        <p className="text-xs text-zinc-700">{description}</p>
+        <p className="text-xs text-zinc-700 line-clamp-2 md:line-clamp-1">{description}</p>
       </div>
     </div>
   );

@@ -6,8 +6,8 @@ import { MenuIcon } from "lucide-react";
 
 const Header: React.FC = () => {
   return (
-    <header className="flex items-center justify-between p-5 sticky top-0 backdrop-blur-2xl antialiased z-50 border-b  ">
-      <nav className="flex container mx-auto items-center justify-between max-w-6xl p-1">
+    <header className="p-5 sticky top-0 backdrop-blur-2xl antialiased z-50 border-b  ">
+      <nav className="flex items-center justify-between container mx-auto max-w-6xl p-1">
         <div className="flex items-center justify-between w-full">
           <Link
             to="/"
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex divide-x items-center gap-1 divide-zinc-600">
             {/* NAV LINKS */}
-            <ul className="flex items-center space-x-6 px-4 gap-1 text-zinc-600 text-sm">
+            <ul className="flex items-center space-x-6 px-4 gap-2 text-zinc-600 text-base">
               {NavLinks.map((link) => {
                 return (
                   <li
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
                         }`
                       }
                     >
-                      <link.icon size={18} />
+                      <link.icon size={20} />
                       <p>{link.text}</p>
                     </NavLink>
                   </li>
@@ -47,7 +47,7 @@ const Header: React.FC = () => {
             </ul>
 
             {/* CONTACT LINKS */}
-            <ul className="flex items-center gap-3 pl-4">
+            <ul className="flex items-center gap-4 pl-5">
               {ContactLinks.map((link) => {
                 return (
                   <li
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
                       className="flex items-center justify-between"
                       aria-label={`Contact Nikhar via ${link.text}`}
                     >
-                      <link.icon size={18} />
+                      <link.icon size={20} />
                     </a>
                   </li>
                 );
