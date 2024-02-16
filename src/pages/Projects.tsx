@@ -9,7 +9,7 @@ const Projects = () => {
         ⚒️ I now present to you a comprehensive list of all that I have
         constructed
       </p>
-      <ul className="px-6 max-w-6xl mx-auto grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <ul className="px-16 max-w-6xl mx-auto grid grid-cols-1  md:grid-cols-2 gap-6">
         {projects.map((proj) => (
           <Project
             icon={proj.img}

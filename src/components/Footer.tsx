@@ -29,7 +29,11 @@ const Footer: React.FC = () => {
             The development work was carried out <br></br>by @nikharsavaliya.
           </p>
         </div>
-        <img src={scanme} alt="mailto Nikhar - QR code" className="max-w-20" />
+        <img
+          src={scanme}
+          alt="mailto Nikhar - QR code"
+          className="max-w-20 dark:invert"
+        />
       </div>
     </footer>
   );

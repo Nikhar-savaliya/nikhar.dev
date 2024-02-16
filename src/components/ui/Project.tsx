@@ -21,26 +21,26 @@ const project = (props: cardData) => {
             className="text-xs hover:underline"
             target="_blank"
           >
-            <p className="text-sm font-medium text-zinc-900 ">
+            <p className="text-base font-medium text-zinc-900 ">
               {props.projectName}
             </p>
           </a>
         </div>
       </div>
 
-      <div className="flex-grow p-3 text-xs  ">
-        <ul className="p-1 px-4 text-start text-zinc-700 list-disc  mb-auto leading-5">
-          {props.projectDescription.map((feature,index) => {
-            return <li key={index}>{feature}</li>
+      <div className="flex-grow p-3 text-sm  ">
+        <ul className="p-1 px-4 text-start text-zinc-700 list-disc  mb-auto leading-6">
+          {props.projectDescription.map((feature, index) => {
+            return <li key={index}>{feature}</li>;
           })}
         </ul>
-        <div className="flex gap-x-2 gap-y-2 flex-wrap py-4 ">
-          {props.techStack.map((item) => (
-            <Badge variant="success" key={item}>
-              {item}
-            </Badge>
-          ))}
-        </div>
+      </div>
+      <div className="flex gap-x-2 gap-y-2 flex-wrap p-4  ">
+        {props.techStack.map((item) => (
+          <Badge variant="success" key={item}>
+            {item}
+          </Badge>
+        ))}
       </div>
 
       <div className="p-3 relative border-t border-zinc-200 flex flex-col justify-end mt-5 text-md ">

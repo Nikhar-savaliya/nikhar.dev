@@ -6,7 +6,7 @@ import { MenuIcon } from "lucide-react";
 
 const Header: React.FC = () => {
   return (
-    <header className="p-5 sticky top-0 backdrop-blur-2xl antialiased z-50 border-b  ">
+    <header className="p-5 sticky top-0 backdrop-blur-2xl antialiased z-50 border-b dark:bg-zinc-900 ">
       <nav className="flex items-center justify-between container mx-auto max-w-6xl p-1">
         <div className="flex items-center justify-between w-full">
           <Link

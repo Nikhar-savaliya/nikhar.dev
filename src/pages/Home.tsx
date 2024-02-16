@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 const Home: React.FC = () => {
   return (
     <>
-      <main className="container flex flex-col items-center text-center max-w-md mx-auto">
+      <main className="container flex flex-col items-center text-center max-w-md mx-auto dark:bg-zinc-900">
         <h1 className="text-4xl font-semibold text-zinc-900 md:text-5xl pt-[100px] px-2 md:px-0 font-serif ">
           Hey, I am Nikhar Savaliya
         </h1>
-        <p className="pt-4 text-zinc-500 text-xs md:text-md ">
-          I am a software Developer and Designer from India.
+        <p className="pt-4 text-zinc-500 text-sm md:text-md ">
+          I am a programmer and web Developer from India.
           <br />
-          trying to solve problems for greater good.
+          {/* trying to solve problems for greater good. */}
         </p>
         <div className="flex items-center justify-center gap-4 mt-8">
           <Link to="mailto:nikhar663@gmail.com" target="_blank">

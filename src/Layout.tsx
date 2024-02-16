@@ -6,7 +6,7 @@ import ScrollToTop from "./scrollToTop";
 
 const Layout: React.FC = () => {
   return (
-    <div className="text-zinc-950 bg-zinc-50 font-sans">
+    <div className="text-zinc-950 bg-zinc-50 font-sans dark:bg-zinc-900">
       <ScrollToTop />
       <Header />
       <Outlet />

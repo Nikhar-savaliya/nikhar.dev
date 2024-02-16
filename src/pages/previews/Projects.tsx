@@ -8,9 +8,9 @@ const Projects = () => {
       <p className="text-center my-10 text-3xl font-serif mt-24">
         Freatured Projects
       </p>
-      <ul className="p-6 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <ul className="p-16 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2  gap-6">
         {projects.map((proj) => {
-          if (size <= 3) {
+          if (size <= 2) {
             size++;
             return (
               <Project
