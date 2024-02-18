@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { MenuIcon } from "lucide-react";
+import nikhar from "../assets/Nikhar.png";
 
 const Header: React.FC = () => {
   return (
@@ -11,11 +12,17 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between w-full">
           <Link
             to="/"
-            className="flex gap-2 items-end opacity-100"
+            className="flex gap-2 items-center opacity-100"
             aria-label="Nikhar S."
           >
+            <img src={nikhar} alt="nikhar-img" className="w-10 aspect-square" />
             <span className="font-serif relative font-medium text-lg antialiased flex ">
-              <span className="z-50 px-2">Nikhar S</span>
+              <div className="flex flex-col">
+                <span className="z-50 text-base ">Nikhar Savaliya</span>
+                <span className="text-xs font-sans leading-3 text-zinc-500">
+                  web developer
+                </span>
+              </div>
             </span>
           </Link>
 

@@ -10,7 +10,7 @@ const TechStack = () => {
       </p>
 
       <div>
-        <div className="flex flex-wrap lg:max-w-4xl mx-auto px-4 gap-4 overflow-hidden">
+        <div className="grid grid-cols-3 md:grid-cols-6 lg:max-w-4xl mx-auto px-4 gap-4 overflow-hidden">
           {webTechnologies.map((tech, index) => {
             return <TechIcon name={tech} key={index} />;
           })}
