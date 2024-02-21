@@ -93,8 +93,8 @@ const Header: React.FC = () => {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
-                <ul className="flex flex-col items-start p-4 gap-2 text-zinc-600">
+              <Menu.Items className="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-zinc-200 rounded-md bg-zinc-50 shadow-lg ring-1 ring-black/5 focus:outline-none">
+                <ul className="flex flex-col items-start p-4 gap-6 text-zinc-600">
                   {NavLinks.map((link) => {
                     return (
                       <Menu.Item key={link.link}>
@@ -118,7 +118,7 @@ const Header: React.FC = () => {
                     );
                   })}
                 </ul>
-                <ul className="flex items-start p-4 gap-3 text-zinc-600">
+                <ul className="flex items-start p-4 gap-6 text-zinc-600">
                   {ContactLinks.map((link) => {
                     return (
                       <Menu.Item key={link.link}>

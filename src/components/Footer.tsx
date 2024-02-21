@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             })}
           </ul>
           <p className="text-[10px] text-zinc-500">
-            The development work was carried out <br></br>by @nikharsavaliya.
+            The development work was carried out <br></br>by @nikharsavaliya 🕊️
           </p>
         </div>
         <img

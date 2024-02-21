@@ -159,16 +159,7 @@ export const articleData = [
 ];
 
 export const techStack = {
-  webTechnologies: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "React.js",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-  ],
-  otherLanguages: ["Java", "python"],
+  frontEnd: ["HTML", "CSS", "JavaScript", "TypeScript", "React.js", "Next.js"],
+  backEnd: ["Node.js", "Express.js", "MongoDB"],
+  other: ["PostMan"],
 };

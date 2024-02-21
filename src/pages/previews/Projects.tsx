@@ -5,8 +5,8 @@ const Projects = () => {
   let size: number = 1;
   return (
     <>
-      <p className="text-center my-10 text-3xl font-serif mt-24">
-        Freatured Projects
+      <p className="text-center text-3xl font-serif mt-24">
+        🦖 Freatured Projects I have Build
       </p>
       <ul className="p-16 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2  gap-6">
         {projects.map((proj) => {

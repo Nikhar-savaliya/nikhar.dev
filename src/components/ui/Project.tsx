@@ -28,8 +28,8 @@ const project = (props: cardData) => {
         </div>
       </div>
 
-      <div className="flex-grow p-3 text-sm  ">
-        <ul className="p-1 px-4 text-start text-zinc-700 list-disc  mb-auto leading-6">
+      <div className="flex-grow p-3  text-sm  ">
+        <ul className="p-1 px-6 text-start text-zinc-700 list-disc  mb-auto leading-7">
           {props.projectDescription.map((feature, index) => {
             return <li key={index}>{feature}</li>;
           })}
